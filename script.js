@@ -37,7 +37,7 @@ function readAll(){
     btn.classList = "fa fa-spinner fa-spin"
     span.innerText = "Please wait"
     console.log("in the function")
-    for(i=0;i<=1;i++){
+    for(i=0;i<1;i++){
     VoiceRSS.speech({
         key: "1f44c827c9794ceeb4f5d708fe7c6cd4",
         src: khabare.innerText,
